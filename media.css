@@ -1,0 +1,702 @@
+@media (max-width: 1200px){
+    .help-section_card>img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .help-section_card{
+        gap: 20px;
+    }
+
+    .about-section_cards{
+        gap: 130px;
+    }
+
+    .about-section{
+        gap: 130px;
+    }
+
+    .order-section_img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .order-section_text>p{
+        width: 500px;
+    }
+
+    .order-shape2{
+        top: 60px;
+    }
+
+    .order-shape3{
+        bottom: 60px;
+    }
+
+    .card-section{
+        flex-wrap: wrap;
+        padding: 80px 20px;
+    }
+
+    .card-text>p{
+        width: 280px;  
+    }
+
+    .rasm1{
+        margin-left: 15px;
+    }
+
+    .sec{
+        padding: 20px;
+    }
+
+    .dr-section :nth-child(1){
+        width: 800px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .help-section_card>img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .help-section_cards{
+        gap: 30px;
+    }
+
+    .help-section_card>h3{
+        font-size: 1.2rem;
+        width: 100px;
+        text-align: center;
+    }
+
+    .shape1{
+        right: -100px;
+        top: -200px;
+    }
+
+    .shape{
+        top: -120px;
+        left: -290px;
+    }
+
+    .shape3{
+        width: 50px;
+        height: 50px;
+        top: 20px;
+        right: 50px;
+    }
+
+    .shape2 {
+        left: 17px;
+        width: 50px;
+        height: 50px;
+        top: 120px;
+    }
+
+    .about-section_card{
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-section_cards{
+        gap: 60px;
+    }
+
+    .order-section_img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .order-section_text>p{
+        width: 400px;
+    }
+
+    .order-section_text>h1{
+        text-align: start;
+    }
+
+    .order-shape2{
+        top: 30px;
+    }
+
+    .order-shape3{
+        bottom: 30px;
+    }
+
+    .left>p{
+        width: 250px;
+    }
+
+    .help-section_card>p{
+        width: 250px;
+    }
+
+    .card-text>h3{
+        width: 250px;   
+    }
+}
+
+@media (max-width:768px){
+
+    .welcome-text{
+        padding: 200px 0;
+
+    }
+
+    .card-text>h3{
+        width: 200px;
+    }
+
+    .par{
+        width: 500px;
+    }
+
+    .welcome-text>h1{
+        font-size: 2.1rem;
+        width: 600px;
+    } 
+
+    .card-text>h3{
+        width: 200px;
+    }
+
+    .welcome-text>p{
+        width: 400px;
+    }
+
+    .help-section_card>img{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .help-section_cards{
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .help-section_card>h3{
+        font-size: 1.2rem;
+    }
+
+    .help-section_card{
+        gap: 10px;
+    }
+
+    .help-section_text>p{
+        width: 450px;
+    }
+
+    .help-section_text>h2{
+        font-size: 2.2rem;
+        z-index: 10;
+    }
+
+    .shape {
+        top: -204px;
+        left: -332px;
+    }
+
+    .shape2 {
+        width: 50px;
+        height: 50px;
+        left: 1px;
+        top: 61px;
+    }
+
+    .shape1{
+        top: -456px;
+    }
+
+    .shape3{
+        right: 20px;
+        top: 35px;
+    }
+
+    .shape4{
+        bottom: 150px;
+        right: 100px;
+        display: none;
+    }
+
+    .about-section_cards{
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .about-section{
+        gap: 90px;
+        padding: 40px;
+    }
+
+    .about-secttion_text{
+        gap: 40px;
+    }
+
+    .about_shape{
+        left: 70px;
+    }
+
+    .order-section_text{
+        margin-left: 30px;
+    }
+
+    .order-section_text>p {
+        width: 300px;
+        font-size: 1rem;
+    }
+
+    .order-section_img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card-section_card{
+        width: 300px;
+        height: 400px;
+        gap: 10px;
+    }
+
+    .text-1{
+        gap: 10px;
+    }
+
+    .text-2>p{
+        width: 300px;
+    }
+
+    .adventage-section_cards-1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .adventage-section_cards-2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .amount-card{
+        gap: 40px;
+    }
+
+    .what-us{
+        gap: 40px;
+    }
+
+    .what-us>p{
+        width: 500px;
+    }
+
+    .adventage-section{
+        padding: 80px 0;
+        gap: 50px;
+    }
+
+    .dr-section :nth-child(1) {
+        font-size: 2rem;
+        width: 450px;
+    }
+
+    .ali{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left{
+        width: 100%;
+        align-items: center;
+    }
+
+    .logo-i{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left>p{
+        width: 250px;
+    }
+
+    .burger-menu-icon {
+        display: block;
+    }
+
+    .oli{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 480px){
+    .lik{
+        flex-direction: column;
+    }
+
+    .shape4{
+        display: block;
+    }
+
+    .order-shape1{
+        display: none;
+    }
+
+    .order-shape2{
+        display: none;
+    }
+
+    .order-shape3{
+        display: none;
+    }
+
+    .order-shape4{
+        display: none;
+    }
+
+    .welcome-text>p{
+        width: 400px;
+    }
+
+    .welcome-text>h1 {
+        font-size: 1.6rem;
+        width: 450px;
+    }
+
+    .welcome-text{
+        padding: 100px;
+    }
+
+    .shape1{
+        display: none;
+    }
+
+    .shape{
+        display: none;
+    }   
+
+    .help-section_text>h2{
+        font-size: 2rem;
+    }
+
+    .shape2{
+        top: 20px;
+    }
+
+    .help-section_text>p{
+        width: 350px;
+    }
+
+    .what-us>p{
+        width: 350px;
+    }
+
+    .what-us>h2{
+        font-size: 2.1rem;
+    }
+
+    .help-section_text{
+        gap: 30px;
+    }
+
+    .bac-img-1 {
+        position: absolute;
+        top: 0;
+        right: -10px;
+    }
+
+    .shape2{
+        width: 50px;
+        height: 50px;
+        top: 310px;
+        left: 40px;
+    }
+
+    .help-section{
+        padding: 50px;
+        gap: 30px;
+    }
+
+    .shape3{
+        width: 50px;
+        height: 50px;
+        top: 20px;
+    }
+
+    .shape4{
+        width: 50px;
+        height: 50px;
+        bottom: 200px;
+        right: 40px;
+    }
+
+    .help-section_card>h3{
+        font-size: 1.5rem;
+        width: 200px;
+    }
+
+    .help-section_card>p{
+        font-size: 1.2rem;
+    }
+
+    .ali{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .right{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .left{
+        width: 100%;
+        align-items: center;
+    }
+
+    .logo-i{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .other>h1{
+        text-align: center;
+    }
+
+    .other>p{
+        text-align: center;
+    }
+
+    .lo{
+        font-size: 2.5rem;
+    }
+
+    .par{
+        width: 400px;
+    }
+
+    .lia {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 57px;
+    }
+
+    .order-section_text{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .order-section_text>p{
+        text-align: center;
+    }
+
+    .order-section_text>h1{
+        text-align: center;
+    }
+
+    .order-section_img{
+        width: 250px;
+        height: 190px;
+    }
+
+    .lik{
+        padding: 50px 20px;
+    }
+
+    .card-text>p{
+        width: 250px;
+    }
+
+    .rasm{
+        width: 100px;
+        height: 100px;
+    }
+
+    .bac-img-2{
+        display: none;
+    }
+
+    .dr-section :nth-child(1) {
+        font-size: 1.5rem;
+        width: 400px;
+    }
+
+    .dr-section{
+        padding: 100px 0;
+    }
+
+    .left>p{
+        text-align: center;
+    }
+
+    .about-section_cards{
+        margin-bottom: 20px;
+        gap: 40px;
+    }
+
+    .about-section{
+        gap: 40px;
+    }
+
+    .sec{
+        padding: 20px;
+    }
+
+    .right{
+        justify-content: start;
+        gap: 30px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .other>p{
+        text-align: start;
+    }
+
+    .other>h1{
+        text-align: start;
+        
+    }
+
+    .left{
+        align-items: start;
+        padding: 0;
+    }
+
+    .left>p{
+        text-align: start;
+    }
+
+    .logo-i{
+        align-items: start;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 390px){
+    .sec{
+        padding: 20px;
+    }
+
+    .welcome-text>h1{
+        font-size: 1.3rem;
+        width: 400px;
+    }
+
+    .welcome-text>p{
+        font-size: 1rem;
+        width: 350px;
+    }
+
+    .help-section_text>p{
+        font-size: 1rem;
+        width: 300px;
+    }
+
+    .par{
+        width: 300px;
+        font-size: 1.1rem;
+    }
+
+    .lo{
+        font-size: 2rem;
+    }
+
+    .about-section_card>:nth-child(2){
+        width: 150px;
+    }
+
+    .order-section_img {
+        width: 250px;
+        height: 180px;
+    }
+
+    .order-section_text>p{
+        width: 300px;
+        font-size: 1rem;
+    }
+
+    .order-section_text>h1{
+        font-size: 2.3rem;
+    }
+
+    .what-us>p{
+        width: 300px;
+        font-size: 1.1rem;
+    }
+
+    .what-us>h2{
+        font-size: 2.3rem;
+    }
+
+    .card-text>p{
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    .rasm{
+        width: 150px;
+        height: 120px;
+    }
+
+    .dr-section :nth-child(1) {
+        font-size: 1.3rem;
+        width: 350px;
+    }
+
+    .right{
+        justify-content: start;
+        gap: 30px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .other>p{
+        text-align: start;
+    }
+
+    .other>h1{
+        text-align: start;
+        
+    }
+
+    .left{
+        align-items: start;
+        padding: 0;
+    }
+
+    .left>p{
+        text-align: start;
+    }
+
+    .logo-i{
+        align-items: start;
+        justify-content: start;
+    }
+}
