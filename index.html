@@ -7,12 +7,12 @@
     <meta name="keywords" content="veterinariya, Toshkent veterinariya, uy hayvonlari, veterinariya markazi, hayvonlarni davolash, uy hayvonlari klinikasi, veterinar shifokor, Toshkentda veterinariya xizmatlari, hayvonlarga tibbiy yordam, veterinar maslahatlar">
     <meta name="author" content="S.Abdullayev">
     <title>Vetlon</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Css Files/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="/Css Files/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
@@ -35,6 +35,7 @@
                         <li><a href="#">Xizmatlar</a></li>
                         <li><a href="#">Biz haqimizda</a></li>
                         <li><a href="#">Bog`lanish</a></li>
+                        <li><a href="/admin.html">Panel</a></li>
                     </ul>
                       <!-- Burger Tugmasi -->
                       <div class="burger-menu-icon" id="burgerMenuIcon">
@@ -60,7 +61,22 @@
             <div class="welcome-text uli">
                 <h1>Biz Sizning Uy Hayvoningizga G‘amxo‘rlik Qilamiz</h1>  
                 <p>Uy hayvoningizning sog‘lig‘i va farovonligi biz uchun muhim! Malakali veterinarlarimiz yordamida biz ularga eng yaxshi parvarishni ta’minlaymiz.</p>
-                <button>Xizmatdan Foydalanish</button>
+                <button id="openModal">Xizmatdan Foydalanish</button>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span id="closeModal" class="close">&times;</span>
+                        <h2>Buyurtma berish</h2>
+                        <div id="orderForm">
+                            <input type="text" id="name" placeholder="Ismingiz" required>
+                            <input type="tel" id="phone" placeholder="Telefon raqamingiz" required>
+                            <input type="email" id="email" placeholder="Email" required>
+                            <p id="successMessage">Ma'lumot muvaffaqiyatli yuborildi!</p>
+                            <p id="error-message" class="color: red;">Email yoki Nomer hato kiritilgan</p>
+                            <button id="btnl">Yuborish</button>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
          </div>
         </header>
@@ -75,19 +91,19 @@
                 <h2>Bizning Xizmatlarimiz</h2>
                 <p>Biz mijozlarimizga yuqori sifatli va ishonchli xizmatlar taklif qilamiz. Tajribali mutaxassislarimiz bilan sizga qulay, samarali va innovatsion yechimlar taqdim etamiz.</p>
              </div>
-             <div class="help-section_cards">
+             <div id="iii" class="help-section_cards">
                 <div class="help-section_card">
-                    <img src="/assets/images/Place Your Image Here (Double Click to Edit).png" alt="doctor">
+                    <img src="/assets/images/edit.png" alt="doctor">
                     <h3>Hayvonlarini Parvarish</h3>
                     <p>Malakali veterinarlarimiz sizning uy hayvoningizga eng yaxshi parvarishni ta’minlaydi.</p>
                 </div>
                 <div class="help-section_card">
-                    <img src="/assets/images/Place Your Image Here (Double Click to Edit) (1).png" alt="medicine">
+                    <img src="./assets/images/editl.png" alt="medicine">
                     <h3>Shifokorlik Xizmati</h3>
                     <p>Shifokorlarimiz sizning uy hayvoningizga eng yaxshi shifokorlik xizmatini ta’minlaydi.</p>
                 </div>
                 <div class="help-section_card">
-                    <img src="/assets/images/Image (1).png" alt="ambulance">
+                    <img src="/assets/images/mage.png" alt="ambulance">
                     <h3>Tezlik Xizmati</h3>
                     <p>Tezlik xizmatimiz orqali sizning uy hayvoningizga tez va samarali yordam ko'rsatamiz.</p>
                 </div>
@@ -130,41 +146,7 @@
              </div>
             </div>
           </div>
-          <div class="card-section">
-            <div class="card-section_card">
-                <div class="text-1">
-                    <h3>Premium xizmat</h3>
-                    <img src="/assets/icons/Icon.svg" alt="medicine">
-                    <p>200.000 ming</p>
-                </div>
-                <div class="text-2">
-                    <p>Shifokorlarimiz sizning uy hayvoningizga eng yaxshi shifokorlik xizmatini ta’minlaydi.</p>
-                    <button>Hozir Xizmatni Buyurish</button>
-                </div>
-            </div>
-            <div class="card-section_card">
-                <div class="text-1">
-                    <h3>Premium xizmat</h3>
-                    <img src="/assets/icons/Icon.svg" alt="medicine">
-                    <p>200.000 ming</p>
-                </div>
-                <div class="text-2">
-                    <p>Malakali veterinarlarimiz sizning uy hayvoningizga eng yaxshi parvarishni ta’minlaydi.
-                    </p>
-                    <button>Hozir Xizmatni Buyurish</button>
-                </div>
-            </div>
-            <div class="card-section_card">
-                <div class="text-1">
-                    <h3>Premium xizmat</h3>
-                    <img src="/assets/icons/Icon.svg" alt="medicine">
-                    <p>200.000 ming</p>
-                </div>
-                <div class="text-2">
-                    <p>Tezlik xizmatimiz orqali sizning uy hayvoningizga tez va samarali yordam ko'rsatamiz.</p>
-                    <button>Hozir Xizmatni Buyurish</button>
-                </div>
-            </div>
+          <div id="costs" class="card-section">
           </div>
           <div class="adventage-section">
             <img src="/assets/icons/Shape (3).svg"  alt="" class="bac-img-1">
@@ -260,24 +242,8 @@
             </div>
          </div>
         </footer>
-        <script>
-      // Burger tugmasi va menyu
-const burgerMenuIcon = document.getElementById('burgerMenuIcon');
-const burgerMenu = document.getElementById('burgerMenu');
-const closeMenu = document.getElementById('closeMenu');
-
-// Burger tugmasini bosganda menyuni ochish
-burgerMenuIcon.addEventListener('click', () => {
-    burgerMenu.style.display = 'block';
-    burgerMenu.style.transform = 'translateX(0)';
-});
-
-// X tugmasini bosganda menyuni yopish
-closeMenu.addEventListener('click', () => {
-    burgerMenu.style.display = 'none';
-    burgerMenu.style.transform = 'translateX(-100%)';
-});
-
-        </script>
+        <script type="module" src="/js/script.js"></script>
+        <script type="module" src="/js/data.js" defer></script>
+        <script type="module" src="/js/main.js"></script>
 </body>
 </html>
